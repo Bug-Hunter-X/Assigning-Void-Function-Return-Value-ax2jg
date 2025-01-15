@@ -1,0 +1,3 @@
+This repository contains an example of a common ActionScript error: assigning the return value of a void function to a variable.  The `bug.as` file demonstrates the error, while `bugSolution.as` provides a corrected version.
+
+The error arises because void functions, by definition, do not return a value.  Attempting to assign their (non-existent) return value to a variable will result in a runtime error.  The solution involves either modifying the function to return a value or removing the assignment statement.
